@@ -38,9 +38,9 @@ La base de données est composée de 3 tables :
 
 ### La table `module`
 
-| ID | Nom | description | Etat  | valeur|
-|----|-----|-------------|------|------------|------------|
-| 1  | Nom du Module | Description du module test | 1 | Nom de la valeur |
+| ID | Nom | description | Etat | valeur |
+|----|-----------|------|------|------|
+| 1  | Nom du Module | Description | 1 | Nome de la valeur |
 
 ### La table `user`
 
