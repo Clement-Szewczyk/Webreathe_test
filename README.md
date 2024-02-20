@@ -46,7 +46,7 @@ La base de données est composée de 3 tables :
 
 | ID | Login | MDP |
 |----|--------|----------|
-| 1  | Pseudo  | $2y$10$
+| 1  | Pseudo  | $2y$10$ |
 
 ### La table `Historique`
 
