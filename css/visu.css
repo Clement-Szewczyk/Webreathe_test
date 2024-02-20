@@ -1,0 +1,63 @@
+.description{
+    margin: 10px;
+}
+
+.description h2{
+    margin: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.description p{
+    margin: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.etat{
+    margin: 20px;
+}
+
+.etat h2{
+    font-size: 1.5em;
+    color: #333;
+}
+
+.graph{
+    margin: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.graphique{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.taille{
+    width: 40%;
+}
+
+.add{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ajout{
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.ajout:hover{
+    background-color: #333;
+    color: white;
+}

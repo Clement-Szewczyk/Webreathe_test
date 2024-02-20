@@ -1,0 +1,42 @@
+/* CSS d'un tableau d'historique */
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Lignes */
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Colonnes */
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+/* Lignes paires */
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Lignes impaires */
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Lignes de titre */
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+

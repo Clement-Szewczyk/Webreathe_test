@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(225, 228, 230);
+}
+
+.navbar a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.navbar a:hover{
+    
+    border-radius: 5px;
+    color: rgb(131, 129, 129);
+}
+
+
+
+
+/*Bibliotheque*/
+
+.titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Actif{
+    color: rgb(0, 192, 0);
+}
+
+.Inactif{
+    color: red;
+}
+
+.Panne{
+    color: orange;
+}
+
+.erreur{
+    margin: 40px;
+    color: red;
+    font-size: large;
+}
+
+.succes{
+    margin: 40px;
+    color: green;
+    font-size: large;
+}

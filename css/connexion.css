@@ -1,0 +1,35 @@
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.position form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.position form input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.position form input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.position form input[type="submit"]:hover{
+    background-color: #45a049;
+}
+
+.position a:hover{
+    color: #45a049;
+}
